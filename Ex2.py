@@ -8,7 +8,7 @@ def main():
     ports = input("Enter port : ")
 
     if ports.strip() == "":
-        ports = 
+        ports = " "
 
     print("*" * 50)
     print(f"Scanning target: {target}")
